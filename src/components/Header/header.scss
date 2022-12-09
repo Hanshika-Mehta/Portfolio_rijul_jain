@@ -1,0 +1,35 @@
+header {
+	margin-inline: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	img {
+		padding-top: 10px;
+	}
+	ul {
+		list-style: none;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5rem;
+		li {
+			cursor: pointer;
+			color: black;
+			a {
+				text-decoration: none;
+				color: black;
+				&:hover {
+					color: #cf5757 !important;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 620px) {
+	header ul {
+		gap: 2rem;
+	}
+}

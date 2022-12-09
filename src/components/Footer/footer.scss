@@ -1,0 +1,14 @@
+footer {
+	cursor: pointer;
+
+	.inverted-view {
+		display: none;
+	}
+	&:hover {
+		display: none;
+
+		.inverted-view {
+			display: block !important;
+		}
+	}
+}
